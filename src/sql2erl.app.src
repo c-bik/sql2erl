@@ -1,0 +1,12 @@
+{application, sql2erl,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { sql2erl_app, []}},
+  {env, []}
+ ]}.
